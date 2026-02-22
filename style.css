@@ -80,6 +80,9 @@ nav ul li a:hover { color: var(--accent); }
   letter-spacing: -.02em; margin-bottom: 1rem;
   text-transform: lowercase;
 }
+.cap {
+  text-transform: uppercase; /* capitalizes only letters inside .cap */
+}
 .hero-roles { display: flex; flex-wrap: wrap; gap: .6rem; margin-bottom: 1.5rem; }
 .role-tag {
   padding: .3rem .85rem;
